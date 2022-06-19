@@ -26,68 +26,73 @@
             </div>
         </div>
     </nav>
-    <section class="highlight-blue">
-        <section class="highlight-blue">
-            <div class="container">
-                <div class="intro">
-                    <h2 class="text-center">Enter student number</h2>
-                </div>
-                <div class="buttons"><input type="text" name="student_id" required="" minlength="9" maxlength="12"></div>
-            </div>
-        </section>
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Select a destination</h2>
-            </div>
-            <div class="buttons">
-                <div class="dropdown">
-                    <select class="select2 form-control" Name="listPl">
-                        <option> Main Campus</option>
-                        <option> Soshanguve south</option>
-                        <option> Soshanguve North</option>
-                        <option> Garankuwa</option>
-                        <option> Art Campus</option>
-                        <option> Arcardia</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="highlight-blue">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Time of departure</h2>
-            </div>
-            <div class="buttons">
-                <select class="select form-control" Name="list">
-                    <option> 08:00</option>
-                    <option> 09:00</option>
-                    <option> 13:00</option>
-                    <option> 17:00</option>
-                </select>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="highlight-blue">
-        <div class="container">
-            <div class="intro"></div>
-            
-            <div class="buttons"><a class="btn btn-primary" role="button" href="#">Book A seat</a></div>
-        </div>
-    </section>
-    <section class="highlight-blue">
-        <div class="container">
-            <div class="intro"></div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="untitled-2.html">Edit</a></div>
-        </div>
-    </section>
-    <div>
-        <footer class="footer-basic">
-            <div class="social"><a href="https://www.linkedin.com/mwlite/in/tshepo-molaoa-3a2627170"><i class="icon ion-social-linkedin-outline"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
+    
+    <form name="f1" action="add.php" method="POST">
+                <section class="highlight-blue">
+                    <section class="highlight-blue">
+                        <div class="container">
+                            <div class="intro">
+                                <h2 class="text-center">Enter student number</h2>
+                            </div>
+                            <div class="buttons"><input type="text" name="student_id" required="" minlength="9" maxlength="12"></div>
+                        </div>
+                    </section>
+                    <div class="container">
+                        <div class="intro">
+                            <h2 class="text-center">Select a destination</h2>
+                        </div>
+                        <div class="buttons">
+                            <div class="dropdown">
+                                <select class="select2 form-control" name="listPl" id="listP1">
+                                    <option value="Main Campus"> Main Campus</option>
+                                    <option value ="Soshanguve South"> Soshanguve south</option>
+                                    <option value="Soshanguve North"> Soshanguve North</option>
+                                    <option value="Garankuwa"> Garankuwa</option>
+                                    <option value="Art Campus"> Art Campus</option>
+                                    <option value="Arcardia"> Arcardia</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="highlight-blue">
+                    <div class="container">
+                        <div class="intro">
+                            <h2 class="text-center">Time of departure</h2>
+                        </div>
+                        <div class="buttons">
+                            <select class="select form-control" name="list" id="list">
+                                <option value="08:00"> 08:00</option>
+                                <option value="09:00"> 09:00</option>
+                                <option value="13:00"> 13:00</option>
+                                <option value="17:00"> 17:00</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="highlight-blue">
+                    <div class="container">
+                        <div class="intro"></div>
+                        
+                        <div class="buttons">
+                         <input type="Submit" class="btn btn-primary" value="Book a seat">
+                        </div>
+                    </div>
+                </section>
+                <section class="highlight-blue">
+                    <div class="container">
+                        <div class="intro"></div>
+                        <div class="buttons"><a class="btn btn-primary" role="button" href="untitled-2.html">Edit</a></div>
+                    </div>
+                </section>
+        </form>       
+        <div>
+                <footer class="footer-basic">
+                    <div class="social"><a href="https://www.linkedin.com/mwlite/in/tshepo-molaoa-3a2627170"><i class="icon ion-social-linkedin-outline"></i></a></div>
+                    <ul class="list-inline">
+                     <li class="list-inline-item"><a href="#">Home</a></li>
+                     <li class="list-inline-item"><a href="#">Services</a></li>
                 <li class="list-inline-item"><a href="#">About</a></li>
             </ul>
             <p class="copyright">Industrious web development © 2022</p>
